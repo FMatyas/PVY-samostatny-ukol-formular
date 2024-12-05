@@ -9,7 +9,7 @@ function toggleForm() {
 const obsahZakladna = document.getElementById('zakladna');
 const obsahDruheStrany = document.getElementById('druhaStrana');
 const btnObsah = document.getElementById('btnObsah');
-const outputObsah = document.getElementById('vysledekObsah');
+const outputObsah = document.getElementById('vysledekObsahu');
 
 btnObsah.addEventListener('click', function (event) {
     event.preventDefault();
@@ -24,7 +24,7 @@ const obvodA = document.getElementById('strana-a');
 const obvodB = document.getElementById('strana-b');
 const obvodC = document.getElementById('strana-c');
 const btnObvod = document.getElementById('btnObvod');
-const outputObvod = document.getElementById('vysledekObvod');
+const outputObvod = document.getElementById('vysledekObvodu');
 
 btnObvod.addEventListener('click', function (event) {
     event.preventDefault();
